@@ -39,3 +39,11 @@ function solution(n, numlist) {
     return answer;
 }
 ```
+
+### 풀이2
+
+```javaScript
+function solution(n, numlist) {
+    return numlist.filter(num => num % n === 0);
+}
+```
